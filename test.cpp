@@ -20,6 +20,7 @@ TEST_CASE("Push function test", "[push]") {
     myStack.push(20);
     myStack.push(30);
 
+
     // Ensure the stack is not empty
     REQUIRE(myStack.isEmpty() == false);
 
